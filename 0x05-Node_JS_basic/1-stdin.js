@@ -1,4 +1,4 @@
-console.log("Welcome to Holberton School, what is your name?\n");
+console.log("Welcome to Holberton School, what is your name?");
 process.stdin.on('readable', () => {
 	let answer = process.stdin.read();
 	if (answer !== null) {
